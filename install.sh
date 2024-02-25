@@ -13,16 +13,13 @@ sudo chmod 666 /var/run/docker.sock
 echo "[Git] Installing git ..."
 sudo apt install git
 
-
 echo "[IDE] Installing Visual Studio Code ..."
 sudo snap install code --classic
-
 
 echo "[Database Manager] Installing Dbeaver ..."
 sudo snap install dbeaver-ce
 
-
-echo "[Postman] Installing postman"
+echo "[Postman] Installing postman ..."
 sudo snap install postman
 
 
